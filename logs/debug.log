@@ -1,0 +1,294 @@
+2025-05-07 06:58:12 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 07:23:06 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost:8765/forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-23 10:40:46 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-29 05:48:19 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-29 10:46:37 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-29 10:56:25 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-29 10:58:55 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-30 06:36:15 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+

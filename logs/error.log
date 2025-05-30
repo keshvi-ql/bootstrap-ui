@@ -1,0 +1,1346 @@
+2025-05-07 07:24:42 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:29:24 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:29:55 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:30:05 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:30:47 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:30:49 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 07:31:06 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 10:36:49 error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 155
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2468
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:382
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\friendsofcake\bootstrap-ui\src\View\Helper\FormHelper.php:413
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Forms\print.php:26
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1222
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:810
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:569
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+2025-05-07 10:37:51 error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 155
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2468
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:382
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\friendsofcake\bootstrap-ui\src\View\Helper\FormHelper.php:413
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Forms\print.php:26
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1222
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:810
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:569
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+2025-05-07 11:24:58 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 396
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:172
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost:8765/forms/print
+2025-05-07 11:27:12 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 419
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:172
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost:8765/forms/print
+2025-05-07 11:28:52 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 419
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:172
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost:8765/forms/print
+2025-05-07 11:28:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Form could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Form',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Form',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /form/print
+2025-05-07 12:07:50 warning: Undefined property: App\Form\PrintForm::$setData
+Request URL: /forms/print
+Trace:
+App\Controller\FormsController->print() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Trying to access array offset on value of type null
+Request URL: /forms/print
+Trace:
+App\Controller\FormsController->print() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Undefined property: App\Form\PrintForm::$setData
+Request URL: /forms/print
+Trace:
+App\Controller\FormsController->print() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Trying to access array offset on value of type null
+Request URL: /forms/print
+Trace:
+App\Controller\FormsController->print() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 137
+Cake\Http\Server->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 164
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 137
+Cake\Http\Server->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 137
+Cake\Http\Server->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:07:50 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 137
+Cake\Http\Server->emit() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:42:41 warning: Undefined variable $Form
+Request URL: /forms/print
+Referer URL: http://localhost:8765/forms/print
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php, line 569
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php, line 40
+[main]
+
+2025-05-07 12:42:41 error: [Cake\View\Exception\MissingHelperException] Helper class Helper could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 133
+Exception Attributes: array (
+  'class' => 'Helper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:103
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\HelperRegistry.php:70
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1132
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Forms\print.php:46
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1222
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:810
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:569
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost:8765/forms/print
+2025-05-07 12:47:29 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::clear() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'clear',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/clear/line_1
+Referer URL: http://localhost:8765/forms/print
+2025-05-07 12:47:38 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:55:41 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:55:54 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:57:25 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:58:23 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:58:27 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 12:58:31 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 13:00:41 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-07 13:00:51 error: [Cake\Http\Exception\MissingControllerException] Controller class .wellKnown could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => '.wellKnown',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '.wellKnown',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:323
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:73
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 10:47:16 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\test.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Pages\test.php`
+- `C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\templates\Pages\test.php`
+ in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Pages\\test.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\cakeframework\\bootstrap\\cms\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\cakeframework\\bootstrap\\cms\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:807
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\src\Controller\PagesController.php:65
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:560
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /
+2025-05-29 10:47:47 error: [Cake\Http\Exception\MissingControllerException] Controller class Form could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Form',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Form',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /Form
+2025-05-29 10:48:13 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::index() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /Forms
+2025-05-29 10:50:36 error: [Cake\Controller\Exception\MissingActionException] Action PagesController::test() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'test',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost/cakeframework/bootstrap/
+2025-05-29 10:51:20 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::index() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms
+2025-05-29 10:51:39 error: [Cake\View\Exception\MissingTemplateException] Template file `Forms\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\cakeframework\bootstrap\cms\templates\Forms\index.php`
+- `C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\templates\Forms\index.php`
+ in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Forms\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\cakeframework\\bootstrap\\cms\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\cakeframework\\bootstrap\\cms\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\View\View.php:807
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php:569
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms
+2025-05-29 10:56:51 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::print.php() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'print.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /Forms/print.php
+2025-05-29 10:57:15 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::print.php() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'print.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /Forms/print.php
+2025-05-29 10:58:34 error: [Cake\Http\Exception\MissingControllerException] Controller class TwitterBootstrap could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'TwitterBootstrap',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'TwitterBootstrap',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /TwitterBootstrap
+2025-05-29 10:58:43 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::index() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /Forms
+2025-05-29 10:59:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Cover could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Cover',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Cover',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /cover
+2025-05-29 11:01:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Print could not be found. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Print',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Print',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /print
+2025-05-29 11:05:10 error: [Cake\Controller\Exception\MissingActionException] Action FormsController::action() could not be found, or is not accessible. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'FormsController',
+  'action' => 'action',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:135
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/action
+Referer URL: http://localhost/cakeframework/bootstrap/cms/forms/print
+2025-05-30 06:38:54 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 396
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:172
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost/cakeframework/bootstrap/cms/forms/print
+2025-05-30 06:39:06 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 392
+Stack Trace:
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:172
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cakeframework\bootstrap\cms\webroot\index.php:40
+- [main]:
+
+Request URL: /forms/print
+Referer URL: http://localhost/cakeframework/bootstrap/cms/forms/print

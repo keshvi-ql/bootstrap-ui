@@ -1,0 +1,19 @@
+2025-05-07 07:17:05 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Forms = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 121
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakeframework\bootstrap\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakeframework\bootstrap\cms\bin\cake.php, line 12
+[main]
+
